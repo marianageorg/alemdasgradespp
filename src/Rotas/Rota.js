@@ -13,6 +13,7 @@ function Rota() {
             <Route index element={<Home/>}/>
             <Route path="login" element={<LoginScreen />}/>
             <Route path="cadastro" element={<Cadastro/>}/>
+            <Route path="home" element={<Home/>}/>
             {/* <Route path="carrinhofinal" element={<CarrinhoFinal/>}/> */}
         </Routes>
 

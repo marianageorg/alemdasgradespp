@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Header from '../../components/Header/Header';
 import './Cadastro.css'; // Arquivo de estilos para personalização
 
 const Cadastro = () => {
@@ -11,26 +13,39 @@ const Cadastro = () => {
     // Aqui você pode adicionar a lógica para enviar os dados de cadastro para o servidor
     console.log('Dados de cadastro enviados:', { nome, email, senha });
   };
-
+   const navigate = useNavigate()
+    const goToHome =()=>{
+      navigate('/home')
+    }
   return (
+    <>
+    <Header/>
+    
     <div className="cadastro-container">
       <form className="cadastro-form" onSubmit={handleSubmit}>
         <h2>Cadastro</h2>
         <label>
           Nome:
-          <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
+          <input type="text"
+          placeholder='Nome'
+          value={nome} onChange={(e) => setNome(e.target.value)} />
         </label>
         <label>
           Email:
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input type="email"
+          placeholder='Email'
+          value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
         <label>
           Senha:
-          <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} />
+          <input type="password"
+          placeholder='Senha'
+          value={senha} onChange={(e) => setSenha(e.target.value)} />
         </label>
-        <button type="submit">Cadastrar</button>
+        <button type="submit" onClick={goToHome}>Cadastrar</button>
       </form>
     </div>
+  </>
   );
 };
 

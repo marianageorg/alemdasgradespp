@@ -1,0 +1,73 @@
+*{
+  font-family: "Montserrat", Arial;
+}
+
+.header-container1 {
+    background-color: #e4e4e4; /* Cor de fundo verde-água */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo1 {
+    width: 180px; /* Ajuste o tamanho da imagem de acordo com suas necessidades */
+    height: auto;
+    
+  }
+  
+  .right-section1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    /* padding: 5px ; */
+    margin-right: 10px; 
+  }
+  
+  .user-actions1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button1 {
+    background-color: #723F33;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .login-button2 {
+    background-color: #723F33;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .register-button1 {
+    background-color: #723F33;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+
+  .carrinho{
+    width: 20px;
+  }

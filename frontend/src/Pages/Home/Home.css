@@ -1,0 +1,58 @@
+*{
+    font-family: "Montserrat",Arial;
+}
+.background-image {
+    background-image: url('../../assets/fundo.png');
+    background-size: cover;
+    height: 88vh;
+}
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    width: calc(33.33% - 20px); /* 3 products per row with some spacing */
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .product p {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .product button {
+    background-color: #723F33;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product button:hover {
+    background-color: #C1752F;
+  }
+  

@@ -1,0 +1,46 @@
+*{
+  font-family: "Montserrat",Arial;
+}
+.background-image2 {
+  background-image: url('../../assets/fundo.png');
+  background-size: cover;
+  height: 88vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 5px;
+    color:#000;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    background-color: #723F33;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

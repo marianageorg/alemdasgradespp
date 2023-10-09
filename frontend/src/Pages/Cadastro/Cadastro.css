@@ -1,0 +1,50 @@
+
+.background-image3 {
+  background-image: url('../../assets/fundo.png');
+  background-size: cover;
+  height: 88vh;
+}
+
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+  }
+  
+  .cadastro-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  .cadastro-box h2 {
+    margin-bottom: 5px;
+    color:#723F33;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
+  button {
+    /* background-color: #723F33; //OLHAR ISSO AQUI// */
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
